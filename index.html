@@ -35,9 +35,9 @@
         <h3 class="section-title">Цифры и факты</h3>
         <p class="section-subtitle">
           Про учёбу и мозг</p> 
-        <div class="digits__table">
+        <div class="table">
 
-          <div class="digits__row">
+          <div class="table__row">
               <div class="table__cell"><h4 class="table__heading">86 миллиардов</h4>
                 Число нейронов в мозге человека</div>
              <div class="table__cell"><h4 class="table__heading">2.1 миллиарда</h4>
@@ -48,7 +48,7 @@
                 Число ответственных за обучение нервных синапсов у взрослого человека</div>
               
 
-        <div class="digits__row">
+        <div class="table__row">
           <div class="table__cell"><h4 class="table__heading">420 миллионов</h4>
             Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства<p>Всемирный Банк, 2017</p></div>
           <div class="table__cell"><h4 class="table__heading">17–20 лет</h4>
@@ -61,53 +61,69 @@
       </section>
       <!-- секция feynman-->
       <section class="feynman">
-        <h3 class=“feynman__title”>Метод Фейнмана</h3>
-         <p class=“feynman__subtitle”>Выучить и не забыть</p>
-        <img class=“feynman__main-illustration” src=“images/feynman.png” alt=“Фейнман“>
-          <a class =“feynman__link” href=“#”>Подробнее →</a>
-
+        <h3 class="feynman-title">Метод Фейнмана</h3>
+        <p class="feynman-subtitle">Выучить и не забыть</p> 
+        <img class="feynman__illustration" src="images/feynman.png" alt="feynman">
+        <a class="feynman__link" href=“#”>Подробнее →</a>
       </section>
-
 <!-- секция kaufman-->
-      <!--<section class="kaufman">
+      <section class="kaufman">
         <h3 class="kaufman__title_theme_dark">Принципы обучения</h3>
         <p class="kaufman__subtitle_theme_dark">
           от Джоша Кауфмана</p> 
-        <div class="kaufman__table_theme_dark">
+        <div class="table">
 
-          <div class="kaufman__row_theme_dark">
-              <div class="table__cell_theme_dark"><h4 class="kaufman__heading">1</h4>
-Выберите привлекательный проект.</div>
-             <div class="table__cell_theme_dark"><h4 class="kaufman__heading">2</h4>
-Сосредоточьтесь на каком-то одном навыке.</div>
-              <div class="table__cell_theme_dark"><h4 class="kaufman__heading">3</h4>
-Определите целевой уровень мастерства.</div>
-              <div class="table__cell_theme_dark"><h4 class="kaufman__heading">4</h4>
-Разбейте навык на элементы.</div>
-              <div class="table__cell_theme_dark"><h4 class="kaufman__heading">5</h4>
-Приготовьте всё необходимое для занятий.</div>
-             </div>
-
-           <div class="kaufman__row_theme_dark">
-              <div class="table__cell_theme_dark"><h4 class="kaufman__heading">6</h4>
-Устраните препятствия для занятий.</div>
-              <div class="table__cell_theme_dark"><h4 class="kaufman__heading">7</h4>
-Выделите специальное время для занятий.</div>
-              <div class="table__cell_theme_dark"><h4 class="kaufman__heading">8</h4>
-Создайте быстрые петли обратной связи.</div>
-              <div class="table__cell_theme_dark"><h4 class="kaufman__heading">9</h4>
-Занимайтесь по расписанию, короткими интенсивными интервалами.</div>
-              <div class="table__cell_theme_dark"><h4 class="kaufman__heading">10</h4>
-Уделяйте внимание количеству и скорости.
-</div>
-      
-          </div>
-            <div class="kaufman_triangle">
-              <img src="images/kaufman-triangle.svg"> 
+          <div class="table__row">
+            <div class="table__cell_theme_dark"><h4 class="kaufman__heading">1</h4>Выберите привлекательный проект.</div>
+              <div class="table__cell_theme_dark"><h4 class="kaufman__heading">2</h4>Сосредоточьтесь на каком-то одном навыке.</div>
+              <div class="table__cell_theme_dark"><h4 class="kaufman__heading">3</h4>Определите целевой уровень мастерства.</div>
+              <div class="table__cell_theme_dark"><h4 class="kaufman__heading">4</h4>Разбейте навык на элементы.</div>
+              <div class="table__cell_theme_dark"><h4 class="kaufman__heading">5</h4>Приготовьте всё необходимое для занятий.</div>
             </div>
+
+           <div class="table__row">
+              <div class="table__cell_theme_dark"><h4 class="kaufman__heading">6</h4>Устраните препятствия для занятий.</div>
+              <div class="table__cell_theme_dark"><h4 class="kaufman__heading">7</h4>Выделите специальное время для занятий.</div>
+              <div class="table__cell_theme_dark"><h4 class="kaufman__heading">8</h4>Создайте быстрые петли обратной связи.</div>
+              <div class="table__cell_theme_dark"><h4 class="kaufman__heading">9</h4>Занимайтесь по расписанию, короткими интенсивными интервалами.</div>
+              <div class="table__cell_theme_dark"><h4 class="kaufman__heading">10</h4>Уделяйте внимание количеству и скорости.
+            </div>
+        </div>
+        <div class="kaufman__triangle"></div>
       </section>
     </main>
     <footer class="footer">
+      <div class="footer__columns">
+        <div class="footer__column footer__column_content_copyright">
+          <div class="logo logo_place_footer"></div>
+          <p class="footer__author">&copy; 2021. Павел Глазков</p>
+        </div>
+        <div class="footer__column footer__column_content_info">
+          <h5 class="footer__column-heading">О Практикуме</h5>
+          <nav class="footer__column-links">
+            <a href="#" class="footer__column-link">Главная</a>
+            <a href="#" class="footer__column-link">Концепция</a>
+            <a href="#" class="footer__column-link">Наставники</a>
+          </nav>
+        </div>
+        <div class="footer__column footer__column_content_social">
+          <h5 class="footer__column-heading">Соцсети</h5>
+          <nav class="footer__column-links">
+            <div class="footer__column-link">
+            <a href="#" class="footer__social-icon"><img src="./images/facebook_color_white.svg" alt="FB"></a>
+            <a href="#" class="footer__column-link">Facebook</a>
+            </div>
+            <div class="footer__column-link">
+            <a href="#" class="footer__social-icon"><img src="./images/vk_color_white.svg" alt="VK"></a>
+            <a href="#" class="footer__column-link">ВКонтакте</a>
+          </div>
+          <div class="footer__column-link">
+            <a href="#" class="footer__social-icon"><img src="./images/instagram_color_white.svg" alt="INST"></a>
+            <a href="#" class="footer__column-link">Instagram</a>
+          </div>
+          </nav>
+        </div>
+      </div>
 
     </footer>
   </div>
