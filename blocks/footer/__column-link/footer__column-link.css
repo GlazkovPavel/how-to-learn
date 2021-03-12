@@ -6,3 +6,9 @@
     font-size: 18px;
     font-weight: normal;
   }
+.footer__column-link:hover{
+  opacity: 60%;
+  transition-property: opacity;
+  transition-duration: .25s;
+  transition-timing-function: linear;
+}
