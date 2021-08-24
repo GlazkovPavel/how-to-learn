@@ -2,7 +2,7 @@
 
 **На этом сайте можно узнать как легко, приятно и задорно можно учиться**
 
-**Ссылка на сайт https://glazkovpavel.github.io/russian-travel/**
+**Ссылка на сайт https://glazkovpavel.github.io/how-to-learn/**
 
 **Используемые технологии:**
 * HTML5
